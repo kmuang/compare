@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Compare </title>
+</head>
+<body class="bg-gray-100 p-6">
+
+  <h1 class="text-3xl font-bold text-center mb-10">Compare Devices</h1>
+
+  <div class="overflow-x-auto">
+    <div class="min-w-[900px] flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 justify-center">
+
+      <!-- Device A -->
+      <div class="flex-shrink-0 bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-shadow w-64 flex flex-col items-center">
+        <img src="https://images.unsplash.com/photo-1759588071838-d560be56b2a2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXBob25lJTIwMTclMjBiYWNrfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=1400" alt="Device A" class="mb-4 w-40 h-auto rounded-xl">
+        <h2 class="text-xl font-semibold mb-4">Device A</h2> 
+        <div class="grid grid-cols-1 gap-2 text-center text-gray-700 w-full mb-4">
+          <div><strong>Screen:</strong> 6.1"</div>  
+          <div><strong>Battery:</strong> 3000 mAh</div>
+          <div><strong>Camera:</strong> 12 MP</div>
+          <div><strong>Storage:</strong> 128 GB</div>
+          <div><strong>Price:</strong> <span class="text-green-600 font-semibold">$699</span></div>
+        </div>
+        <button class="mt-auto bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors">Buy</button>
+      </div>
+
+      <!-- Device B -->
+      <div class="flex-shrink-0 bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-shadow w-64 flex flex-col items-center">
+        <img src="https://images.unsplash.com/photo-1726900303440-0b7e4971dd4c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aXBob25lJTIwMTYlMjBiYWNrfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=1400" alt="Device B" class="mb-4 w-40 h-auto rounded-xl">
+        <h2 class="text-xl font-semibold mb-4">Device B</h2>
+        <div class="grid grid-cols-1 gap-2 text-center text-gray-700 w-full mb-4">
+          <div><strong>Screen:</strong> 6.5"</div>
+          <div><strong>Battery:</strong> 3500 mAh</div>
+          <div><strong>Camera:</strong> 48 MP</div>
+          <div><strong>Storage:</strong> 256 GB</div>
+          <div><strong>Price:</strong> $899</div>
+        </div>
+        <button class="mt-auto bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors">Buy</button>
+      </div>
+
+      <!-- Device C -->
+      <div class="flex-shrink-0 bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-shadow w-64 flex flex-col items-center">
+        <img src="https://images.unsplash.com/photo-1758348844327-b70d25c7589c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aXBob25lJTIwMTUlMjBjYW18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=1400" alt="Device C" class="mb-4 w-40 h-auto rounded-xl">
+        <h2 class="text-xl font-semibold mb-4">Device C</h2>
+        <div class="grid grid-cols-1 gap-2 text-center text-gray-700 w-full mb-4">
+          <div><strong>Screen:</strong> <span class="bg-green-100 text-green-800 px-2 py-1 rounded-full font-semibold">6.7"</span></div>
+          <div><strong>Battery:</strong> <span class="bg-green-100 text-green-800 px-2 py-1 rounded-full font-semibold">4000 mAh</span></div>
+          <div><strong>Camera:</strong> <span class="bg-green-100 text-green-800 px-2 py-1 rounded-full font-semibold">108 MP</span></div>
+          <div><strong>Storage:</strong> <span class="bg-green-100 text-green-800 px-2 py-1 rounded-full font-semibold">512 GB</span></div>
+          <div><strong>Price:</strong> $1099</div>
+        </div>
+        <button class="mt-auto bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors">Buy</button>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
